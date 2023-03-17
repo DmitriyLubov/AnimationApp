@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B661E30F29C46A6E00ED1E9C /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = B661E30E29C46A6E00ED1E9C /* SpringAnimation */; };
+		B661E31529C48BE000ED1E9C /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661E31429C48BE000ED1E9C /* Animation.swift */; };
+		B661E31829C4940A00ED1E9C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661E31729C4940A00ED1E9C /* DataStore.swift */; };
 		B6F2F93A29C4621D008A38C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F2F93929C4621D008A38C7 /* AppDelegate.swift */; };
 		B6F2F93C29C4621D008A38C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F2F93B29C4621D008A38C7 /* SceneDelegate.swift */; };
 		B6F2F93E29C4621D008A38C7 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F2F93D29C4621D008A38C7 /* AnimationViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B661E31429C48BE000ED1E9C /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		B661E31729C4940A00ED1E9C /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		B6F2F93629C4621D008A38C7 /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F2F93929C4621D008A38C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6F2F93B29C4621D008A38C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,22 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		B661E31329C48B9600ED1E9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B661E31429C48BE000ED1E9C /* Animation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B661E31629C493B200ED1E9C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B661E31729C4940A00ED1E9C /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		B6F2F92D29C4621D008A38C7 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				B661E30B29C463B300ED1E9C /* ViewControllers */,
+				B661E31329C48B9600ED1E9C /* Model */,
+				B661E31629C493B200ED1E9C /* Services */,
 				B661E30C29C463E600ED1E9C /* Storyboards */,
 				B661E30A29C4630E00ED1E9C /* App */,
 				B6F2F94229C4621E008A38C7 /* Assets.xcassets */,
@@ -172,6 +194,8 @@
 			files = (
 				B6F2F93E29C4621D008A38C7 /* AnimationViewController.swift in Sources */,
 				B6F2F93A29C4621D008A38C7 /* AppDelegate.swift in Sources */,
+				B661E31529C48BE000ED1E9C /* Animation.swift in Sources */,
+				B661E31829C4940A00ED1E9C /* DataStore.swift in Sources */,
 				B6F2F93C29C4621D008A38C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
