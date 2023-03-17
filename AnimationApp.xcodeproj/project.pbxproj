@@ -85,9 +85,9 @@
 		B6F2F93829C4621D008A38C7 /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				B661E30A29C4630E00ED1E9C /* App */,
 				B661E30B29C463B300ED1E9C /* ViewControllers */,
 				B661E30C29C463E600ED1E9C /* Storyboards */,
+				B661E30A29C4630E00ED1E9C /* App */,
 				B6F2F94229C4621E008A38C7 /* Assets.xcassets */,
 			);
 			path = AnimationApp;
