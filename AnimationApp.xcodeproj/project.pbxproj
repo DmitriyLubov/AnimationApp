@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B641589C29C59D3600642FB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B641589B29C59D3600642FB2 /* README.md */; };
 		B661E30F29C46A6E00ED1E9C /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = B661E30E29C46A6E00ED1E9C /* SpringAnimation */; };
 		B661E31529C48BE000ED1E9C /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661E31429C48BE000ED1E9C /* Animation.swift */; };
 		B661E31829C4940A00ED1E9C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661E31729C4940A00ED1E9C /* DataStore.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B641589B29C59D3600642FB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B661E31429C48BE000ED1E9C /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		B661E31729C4940A00ED1E9C /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		B6F2F93629C4621D008A38C7 /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,12 +72,12 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		B661E31329C48B9600ED1E9C /* Model */ = {
+		B661E31329C48B9600ED1E9C /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				B661E31429C48BE000ED1E9C /* Animation.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B661E31629C493B200ED1E9C /* Services */ = {
@@ -89,6 +91,7 @@
 		B6F2F92D29C4621D008A38C7 = {
 			isa = PBXGroup;
 			children = (
+				B641589B29C59D3600642FB2 /* README.md */,
 				B6F2F93829C4621D008A38C7 /* AnimationApp */,
 				B6F2F93729C4621D008A38C7 /* Products */,
 			);
@@ -106,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				B661E30B29C463B300ED1E9C /* ViewControllers */,
-				B661E31329C48B9600ED1E9C /* Model */,
+				B661E31329C48B9600ED1E9C /* Models */,
 				B661E31629C493B200ED1E9C /* Services */,
 				B661E30C29C463E600ED1E9C /* Storyboards */,
 				B661E30A29C4630E00ED1E9C /* App */,
@@ -181,6 +184,7 @@
 			files = (
 				B6F2F94629C4621E008A38C7 /* LaunchScreen.storyboard in Resources */,
 				B6F2F94329C4621E008A38C7 /* Assets.xcassets in Resources */,
+				B641589C29C59D3600642FB2 /* README.md in Resources */,
 				B6F2F94129C4621D008A38C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
