@@ -147,12 +147,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="curveLabel" destination="xqs-nF-l3d" id="JFA-fS-OV5"/>
-                        <outlet property="delayLabel" destination="qoJ-XQ-ohL" id="Jfw-FC-8Oo"/>
-                        <outlet property="durationLabel" destination="Dbz-jZ-Soi" id="PuN-h1-iOV"/>
-                        <outlet property="forceLavel" destination="nPX-db-vF9" id="w6L-HV-rgn"/>
-                        <outlet property="presetLabel" destination="kGa-f0-gbn" id="EX1-2p-Y3J"/>
                         <outlet property="springAnimationView" destination="bgb-7l-GY8" id="xcB-id-S3c"/>
+                        <outletCollection property="propertyLabels" destination="kGa-f0-gbn" collectionClass="NSMutableArray" id="OE5-MY-KhK"/>
+                        <outletCollection property="propertyLabels" destination="xqs-nF-l3d" collectionClass="NSMutableArray" id="EX4-RW-Ifp"/>
+                        <outletCollection property="propertyLabels" destination="nPX-db-vF9" collectionClass="NSMutableArray" id="gsQ-e1-DPI"/>
+                        <outletCollection property="propertyLabels" destination="Dbz-jZ-Soi" collectionClass="NSMutableArray" id="YMf-h0-cb4"/>
+                        <outletCollection property="propertyLabels" destination="qoJ-XQ-ohL" collectionClass="NSMutableArray" id="9Ih-OW-0rf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
